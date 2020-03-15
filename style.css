@@ -1,0 +1,163 @@
+.homeds{
+    background-image: url('img/bg.jpg');
+    
+}
+
+.galds {
+    background-image: url('img/gbg.png');
+}
+
+
+
+.jumbotron {
+   background-image: url('img/images.png');
+   
+}
+ 
+.button1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+#btn {
+    background-image: url('img/wallpaper.png');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.col {
+    padding: 10px;
+}
+
+.tag {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:Catamaran;font-weight:1000!important;
+    
+}
+
+header.masthead{
+    position:relative;
+    overflow:hidden;
+    padding-top:calc(7rem + 72px);
+    padding-bottom:7rem;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:cover
+
+}
+
+.masthead-heading{
+    font-size:4rem;
+    color: teal;
+}
+
+.masthead-subheading{
+    font-size:2rem;
+    color: teal;
+}
+
+.pd {
+    padding-left: 50px;
+}
+
+.ad {
+    position: center center;
+}
+
+
+.header{
+    background: url("http://a.top4top.net/p_397znzmu1.png") center center fixed;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+.header .overlay{
+    background: rgba(0, 0, 0, 0.58);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+
+.header .navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+.header .navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.header .navbar-default .navbar-nav>li>a {
+   font-size:20px; 
+   color:#fff; 
+    border-bottom: 1px solid transparent
+}
+.header .navbar-default .navbar-nav>li:hover a{
+    color: #333;
+     border-bottom: 1px solid #FFF
+}
+
+
+.header .navbar-toggle {
+      margin:10px 0; 
+      background:#36C; 
+      color:#FFF;
+}
+
+.text-justify {
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+.ab {
+    padding-top:0;padding-left:17rem;
+}    
+    
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight:800;letter-spacing:.05rem;text-transform:uppercase
+}
+   
+#sideNav .navbar-toggler:focus{outline-color:coral}@media (min-width:992px){
+        #sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}
+        #sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem; color: coral;}
+        #sideNav .navbar-brand .img-profile{max-width:13rem;max-height:13rem;border:.5rem solid rgba(255,255,255,.2)}
+        #sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}
+        #sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}
+        #sideNav .navbar-collapse .navbar-nav .nav-item{display:block}
+        #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}
+    }
+    
+    section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}
+        section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){
+            section.resume-section{min-height:100vh}
+            section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){
+                section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}
+    }
+                
+    
+
